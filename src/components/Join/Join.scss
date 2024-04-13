@@ -1,0 +1,109 @@
+.join-container {
+  margin: 1.5rem 25px;
+  border: 1px solid #dedede;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  .heading {
+    text-align: center;
+    padding: 1rem 0rem 2rem 0rem;
+    font-weight: 500;
+    color: #767676;
+    font-size: 20px;
+  }
+  .flex-card {
+    display: flex;
+    justify-content: space-evenly;
+    .card {
+      border: 2px solid #c0c1c1;
+      border-radius: 20px;
+      padding: 1rem 3.5rem;
+      text-align: center;
+      cursor: pointer;
+      width: 200px;
+      .join-img {
+        width: 100px;
+      }
+      .join-txt {
+        color: #484848;
+        font-weight: 500;
+      }
+    }
+
+    .active {
+      border: 2px solid #0191f3 !important;
+      background: #eef8ff !important;
+    }
+  }
+  .center-content {
+    text-align: center;
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    .input-field {
+      width: 50%;
+      border-right: none;
+      border: 2px solid #c9c9c9;
+      background: #efefefa8;
+      border-radius: 8px 0px 0px 8px;
+      padding: 0px 15px;
+    }
+    .create-btn {
+      background: #800000;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 0px 10px 10px 0px;
+      color: white;
+      font-size: 17px;
+      cursor: pointer;
+    }
+    .active {
+      background: #0191f3;
+    }
+    .login-txt {
+      color: #4d4b4b;
+      font-size: 15px;
+      .green-login-txt {
+        margin-left: 4px;
+        color: #14a800;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .flex-card {
+    display: block !important;
+  }
+  .card {
+    margin: 0px 3rem 1rem 3rem;
+    width: auto !important;
+  }
+  .heading {
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .join-container {
+    width: auto !important;
+    margin: 1.5rem 1rem !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .center-content {
+    margin: 3rem 0rem !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card {
+    padding: 1rem 1rem !important;
+  }
+}
+
+@media screen and (max-width: 810px) {
+    .card {
+      padding: 1rem 1rem !important;
+    }
+  }

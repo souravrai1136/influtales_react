@@ -1,0 +1,109 @@
+.login-container {
+  .login-card {
+    margin: 1.5rem auto;
+    border: 1px solid #dedede;
+    padding: 20px 20px 45px 20px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    .google-button {
+      background: #157dad;
+      color: white;
+      border-radius: 33px;
+      padding: 8px 7px 7px 7px;
+      text-align: center;
+      position: relative;
+      margin-bottom: 10px;
+      cursor: pointer;
+      .google-icon {
+        width: 32px;
+        margin-left: 0px;
+        position: absolute;
+        left: 5px;
+        bottom: 0.22rem;
+      }
+    }
+    .linkedin-button {
+      background: white;
+      color: #157dad;
+      border-radius: 33px;
+      padding: 8px 7px 7px 7px;
+      text-align: center;
+      position: relative;
+      margin-bottom: 10px;
+      border: 1px solid #157dad;
+      cursor: pointer;
+      .linkedIn-icon {
+        width: 32px;
+        margin-left: 0px;
+        position: absolute;
+        left: 5px;
+        bottom: 0.22rem;
+      }
+    }
+    .or-line {
+      position: relative;
+      margin: 2.5rem 0px;
+      hr {
+        border: none;
+        border-top: 0.2px solid #dddddd;
+      }
+      .or-txt {
+        position: absolute;
+        top: -13px;
+        left: 50%;
+        right: 50%;
+        background: white;
+        padding: 0px 20px 2px 4px;
+        color: #c9c9c9;
+        font-weight: 100;
+      }
+    }
+    .login-txt {
+      text-align: center;
+      font-size: 19px;
+      font-weight: 500;
+    }
+    .form-group {
+      .input-search {
+        margin: 20px 0px;
+        .search-box {
+          width: 97.5%;
+          padding: 12px 0px 12px 12px;
+          border-radius: 8px;
+          border: 1px solid #d5d5d5;
+        }
+        .search-box:focus-visible {
+          outline: none;
+        }
+      }
+    }
+    .login-button {
+      width: 100%;
+      background: #14a800;
+      color: white;
+      border-radius: 33px;
+      padding: 10px 7px 10px 7px;
+      text-align: center;
+      position: relative;
+      margin: 25px 0px;
+      cursor: pointer;
+      border: none;
+    }
+    .create-txt {
+      text-align: center;
+      font-weight: 500;
+      color: #4d4b4b;
+      font-size: 15px;
+      .create-link {
+        color: #14a800;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .login-card {
+    width: auto !important;
+    margin: 1.5rem 1rem !important;
+  }
+}
